@@ -1,1 +1,264 @@
-# hrtech
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+ <!-----------------------------------------header------------------------------------>   
+    <div class="header ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">  <img class="logo" src="favicon.ico" alt="">HRtech & Insurancetech</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HR, PAYROLL & BENEFITS</a>
+              </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link " href="#"> INSURANCE</a>
+              </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="nav-item">
+                <a class="nav-link " href="#"> HIRING</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-primary " type="submit">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+ <!------------------------------------------body------------------------------------------>
+    
+ <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+ <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+ <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+ <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+ <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+ <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+ <meta name="theme-color" content="#7952b3">
+ 
+ 
+    
+     
+     <!-- Custom styles for this template -->
+     <link href="carousel.css" rel="stylesheet">
+   </head>
+   <body>
+     
+
+ 
+ <main>
+ 
+   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     </div>
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <img class="hiring" src="hiring.png" alt="">
+ 
+         <div class="container">
+           <div class="carousel-caption text-start ">
+             <h1 class="head-text">We Are Hiring.</h1>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item">
+        <img class="payroll" src="payroll.png" alt="">
+         <div class="container">
+           <div class="carousel-caption">
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item">
+        <img class="loan" src="loan.jpg" alt="">
+         <div class="container">
+           <div class="carousel-caption text-end">
+           </div>
+         </div>
+       </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+ 
+ 
+   <!-- Marketing messaging and featurettes
+   ================================================== -->
+   <!-- Wrap the rest of the page in another container to center all the content. -->
+ <br>
+ <br>
+   <div class="container marketing">
+ 
+     <!-- Three columns of text below the carousel -->
+     <div class="row">
+       <div class="col-lg-4">
+         <img class="health" src="health.jpg" alt="" srcset="">
+ 
+         <h2>Health Benefit</h2>
+         <p>A payment made by the state or an insurance scheme to cover the cost of medical care.</p>
+         <p><a class="btn btn-outline-primary" href="#">View details &raquo;</a></p>
+       </div><!-- /.col-lg-4 -->
+       <div class="col-lg-4">
+         <img class="health" src="hr.jpg" alt="">
+         <h2>HR</h2>
+         <p>All-In-One HR.  <br>
+          Minimize HR headaches so you can get back to business.</p>
+         <p><a class="btn btn-outline-primary" href="#">View details &raquo;</a></p>
+       </div><!-- /.col-lg-4 -->
+       <div class="col-lg-4">
+         <img src="loan1.jpg" class="health" alt="">
+ 
+         <h2>loan</h2>
+         <p>A thing that is borrowed, especially a sum of money that is expected to be paid back with interest.</p>
+         <p><a class="btn btn-outline-primary" href="#">View details &raquo;</a></p>
+       </div><!-- /.col-lg-4 -->
+     </div><!-- /.row -->
+ 
+</div>
+
+  
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center  company ">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-normal textin">HRtech & Insurancetech</h1>
+   
+      <a class="btn btn-outline-primary" href="#">Check it</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+
+     <!-- START THE FEATURETTES -->
+     <div class="container" >
+     <hr class="featurette-divider">
+ 
+     <div class="row featurette">
+       <div class="col-md-7">
+         <h2 class="featurette-heading">Onboarding on the go <span class="text-muted"></span></h2>
+         <p class="lead">New hires can self-onboard from a computer or mobile device—all before their first day. Our hiring app handles everything from sending offer letters to running background checks to adding new hires to payroll, benefits, and even integrated partner apps.</p>
+       </div>
+       <div class="col-md-5">
+        <img class="onboard" src="onboard.png" alt="">
+       </div>
+     </div>
+ 
+     <hr class="featurette-divider">
+ 
+     <div class="row featurette">
+       <div class="col-md-7 order-md-2">
+         <h2 class="featurette-heading">Easy & Reliable Payroll <span class="text-muted"></span></h2>
+         <p class="lead">We designed payroll to be so easy you might actually enjoy doing it.From one-man shops to thousand-person enterprises, our payroll is built to address your unique situation. Every Zenefits plan includes all our advanced payroll features. Click to explore them all.</p>
+       </div>
+       <div class="col-md-5 order-md-1">
+        <img class="onboard" src="payroll1.jpg" alt="">
+       </div>
+     </div>
+ 
+     <hr class="featurette-divider">
+ 
+     <div class="row featurette">
+       <div class="col-md-7">
+         <h2 class="featurette-heading">Insurance<span class="text-muted"></span></h2>
+         <p class="lead">Insurance companies create insurance policies by grouping risks according to their focus. This provides a measure of uniformity in the risks that are covered by a type of policy, which in turn allows insurers to anticipate their potential losses and to set premiums accordingly.</p>
+       </div>
+       <div class="col-md-5">
+         <img class="onboard" src="insurance.jpg" alt="">
+       </div>
+     </div>
+ 
+     <hr class="featurette-divider">
+    </div>
+     <div id="grad" > <h1>Ready?</h1> <pre>We're here to help!
+      Ask us anything, or schedule a customized demo.</pre>
+      <button type="button" class="btn btn-outline-primary">TALK TO ADVISOR</button>
+    <h2 class="scnd" >Interactive Demo</h2>
+    <pre>Get familiar with the Platform by exploring your
+       very own demo account.</pre>
+       <button type="button" class="btn btn-outline-primary">TRY 2 WEEKS FREE</button>
+    
+    </div>
+ <!------------------------------------------footer------------------------------------------>
+ 
+    
+ <footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+      <small class="d-block mb-3 text-muted">&copy; 2021-2022</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Features</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Cool stuff</a></li>
+        <li><a class="text-muted" href="#">Random feature</a></li>
+        <li><a class="text-muted" href="#">Team feature</a></li>
+        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+        <li><a class="text-muted" href="#">Another one</a></li>
+        <li><a class="text-muted" href="#">Last time</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Platform</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">HR</a></li>
+        <li><a class="text-muted" href="#">Payroll</a></li>
+        <li><a class="text-muted" href="#">Benefits</a></li>
+        <li><a class="text-muted" href="#">Insurance</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Resources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Business</a></li>
+        <li><a class="text-muted" href="#">Education</a></li>
+        <li><a class="text-muted" href="#">Government</a></li>
+        <li><a class="text-muted" href="#">Gaming</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+
+
+ <h5>About</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="#">Team</a></li>
+        <li><a class="text-muted" href="#">Locations</a></li>
+        <li><a class="text-muted" href="#">Privacy</a></li>
+        <li><a class="text-muted" href="#">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
